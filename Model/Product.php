@@ -1,10 +1,11 @@
 <?php
-
+require_once __DIR__ . '/Discount.php';
 class Product {
   public $img;
   public $name;
   public $category;
   public $price;
+
 
   function __construct(string $_img, string $_name, string $_category, int $_price)
   {
