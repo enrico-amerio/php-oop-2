@@ -32,7 +32,7 @@ require_once __DIR__ . '/data/db.php';
             <div class="card-body">
               <h5 class="card-title"><?php echo $product->name ?></h5>
               <span class="card-text text-decoration-line-through"><?php echo $product->price ?>&euro;</span>
-              <span class="card-text text-danger "><?php echo $product->applyDiscount(20) ?>&euro;</span>
+              <span class="card-text text-danger "><?php echo $product->applyDiscount(200) ?>&euro;</span>
               <?php if (isset($product->grams)): ?>
                 <p class="card-text"><?php echo $product->grams ?>g</p>
                 <?php elseif (isset($product->color)): ?>
