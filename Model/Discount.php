@@ -9,7 +9,7 @@ trait Discount {
     }
 
     $this->discountPercentage = $percentage;
-    return $this->price * (1 - $this->discountPercentage / 100); // Return the discounted price
+    return $this->price * (1 - $this->discountPercentage / 100);
   }
 }
 ?>
